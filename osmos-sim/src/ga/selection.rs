@@ -1,3 +1,5 @@
+/// 选择
+
 // randomly return an Object index
 // the greater the fitness of Object, the greater the probability of being selected
 pub fn selection(rng: &mut rand::rngs::ThreadRng, object_list: &[crate::object::Object]) -> usize {

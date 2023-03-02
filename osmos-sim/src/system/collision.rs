@@ -1,3 +1,4 @@
+/// 碰撞系统
 pub fn process(object_list: &mut Vec<crate::object::Object>) {
     for current_object_index in 0..object_list.len() {
         let current_object_energy = object_list[current_object_index].cell.energy;

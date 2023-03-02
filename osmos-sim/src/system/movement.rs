@@ -1,3 +1,4 @@
+/// 移动系统
 pub fn process(rng: &mut rand::rngs::ThreadRng, object_list: &mut [crate::object::Object]) {
     object_list.iter_mut().for_each(|object| {
         object.cell.velocity += object.cell.acceleration;

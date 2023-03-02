@@ -1,3 +1,4 @@
+/// 交叉
 pub fn crossover(
     rng: &mut rand::rngs::ThreadRng,
     parent_a_gene_list: &crate::ga::gene::GeneList,

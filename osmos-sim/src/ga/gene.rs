@@ -1,3 +1,4 @@
+/// 基因
 pub type GeneList = Vec<f64>;
 
 impl crate::object::Object {

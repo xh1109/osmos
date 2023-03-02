@@ -1,3 +1,4 @@
+/// 传感器系统
 pub fn process(object_list: &mut [crate::object::Object]) {
     for current_object_index in 0..object_list.len() {
         // get other object index list

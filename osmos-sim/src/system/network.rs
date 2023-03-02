@@ -1,3 +1,4 @@
+/// 神经网络系统
 pub fn process(object_list: &mut [crate::object::Object]) {
     object_list.iter_mut().for_each(|object| {
         let mut nn_input = vec![
